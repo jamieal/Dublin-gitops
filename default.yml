@@ -140,4 +140,4 @@ org_settings:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
-
+controls:
