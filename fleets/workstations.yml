@@ -107,7 +107,7 @@ controls:
 
   ipados_updates:
     deadline: "2026-07-30"
-    minimum-version: "26.2"
+    minimum_version: "26.2"
 
   ###########################################################
   # Script library
