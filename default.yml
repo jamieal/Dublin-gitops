@@ -22,6 +22,11 @@ org_settings:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
     org_name: Calan
+    
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: http://webhook.site/cc8d1198-80f1-46c7-b6a9-267888a69a66
 
   server_settings:
     ###########################################################
@@ -85,10 +90,6 @@ org_settings:
     #     fleets:
     #       - "💻 Workstations"
     #       - "📱🔐 Personal mobile devices"
-  webhook_settings:
-    activities_webhook:
-    enable_activities_webhook: true
-    destination_url: http://webhook.site/cc8d1198-80f1-46c7-b6a9-267888a69a66
 
 controls:
   ###########################################################
