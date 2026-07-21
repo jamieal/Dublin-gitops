@@ -21,7 +21,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: Oscar
+    org_name: Calan
 
   server_settings:
     ###########################################################
@@ -136,3 +136,8 @@ controls:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
+webhook_settings:
+  activities_webhook:
+    enabel_activities_webhook: true
+    destination_url: http://webhook.site/cc8d1198-80f1-46c7-b6a9-267888a69a66
+
