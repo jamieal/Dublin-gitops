@@ -3,7 +3,7 @@
   description: Hosts with an uptime greater than 30 days
   query: SELECT 1 FROM uptime WHERE days > 30
   label_membership_type: dynamic
-- name:   
+- name: C-Suite  
   description: Hosts belonging to the c-suite
   label_membership_type: manual
   hosts:
