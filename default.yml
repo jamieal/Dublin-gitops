@@ -56,7 +56,7 @@ org_settings:
     # new computers enrolling in Fleet during end user setup.
     #
     # Read more:
-    #   • https://fleetdm.com/docs/configuration/yaml-files#end-user-authentication
+    #   • https://  fleetdm.com/docs/configuration/yaml-files#end-user-authentication
     #   • https://fleetdm.com/guides/setup-experience#require-idp-authentication
     ###########################################################
     # end_user_authentication:
@@ -90,13 +90,6 @@ org_settings:
     #     fleets:
     #       - "💻 Workstations"
     #       - "📱🔐 Personal mobile devices"
-
-controls:
-  apple_settings:
-    configuration_profiles: 
-      - path: ../platforms/ios/configuration-profiles/passcode-settings.json
-        labels_exclude_any:
-          - C-Suite
 
   ###########################################################
   # Uncomment when you are ready to migrate Macs to Fleet
